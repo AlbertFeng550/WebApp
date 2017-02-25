@@ -157,8 +157,8 @@
                     css:{
                         opacity:0,textAlign:'center',color:'red',fontSize:'26px'
                     },
-                    animateIn:{opacity:1,top:120},
-                    animateOut:{opacity:0,top:240},
+                    animateIn:{opacity:1,top:'20%'},
+                    animateOut:{opacity:0,top:'40%'},
                 })
                 .addComponent('description',{
                     center:true,
@@ -174,7 +174,7 @@
                         textAlign:'justify',
                         top:'70%'
                     },
-                    text:'数据来源于2016上半年中国移动互联网行业发展分析报告，主要用于展示散点图，饼图，雷达图，环图，柱状图，折线图的绘制结果',
+                    text:'数据来源于2016上半年中国移动互联网行业发展分析报告，组件式开发，主要用于展示散点图，饼图，雷达图，环图，柱状图，折线图的绘制结果',
                     animateIn:{opacity:1,top:'40%'},
                     animateOut:{opacity:0,top:'70%'},
                     delay:1000
@@ -188,15 +188,15 @@
                     width:530,
                     height:400,
                     center:true,
-                    css:{opacity:0,top:200},
-                    animateIn:{opacity:1,top:250},
-                    animateOut:{opacity:0,top:100},
+                    css:{opacity:0,top:'70%'},
+                    animateIn:{opacity:1,top:'40%'},
+                    animateOut:{opacity:0,top:'70%'},
                 })
                 .addComponent('msg',{
                     text:'苹果手机占到27.5%',
                     css:{
-                        opacity:0,top:160,
-                        textAlign:'center',width:'100%',color:'#ff7676',fontSize:'16px',
+                        opacity:0,top:'20%',
+                        textAlign:'center',width:'100%',color:'#ff7676',fontSize:'20px',
                     },
                     animateIn:{ opacity:1},
                     animateOut:{ opacity:0}
@@ -213,16 +213,16 @@
                         ['电信' ,.1],
                         ['其他' , .12],
                     ],
-                    css:{top:200},
-                    width:'9.375rem',
-                    height:'9.375rem',
+                    css:{top:'40%'},
+                    width:400,
+                    height:400,
                     center:true
                 })
                 .addComponent('msg',{
                     text:'中国移动据需领跑移动接入网市场',
                     css:{
-                        opacity:0,bottom:120,
-                        textAlign:'center',width:'100%',color:'#ff7676'
+                        opacity:0,top:'20%',
+                        textAlign:'center',width:'100%',color:'#ff7676',fontSize:'20px'
                     },
                     animateIn:{ opacity:1},
                     animateOut:{ opacity:0}
@@ -233,8 +233,8 @@
                             {
                                 type : 'bar',
 
-                                width : '16.5625rem',
-                                height : '18.75rem',
+                                width : 400,
+                                height : 400,
                                 data:[
                                     ['腾讯新闻' , .1167  ,'#ff7676'],
                                     ['今日头条' , .087],
@@ -244,16 +244,16 @@
 
                                 ],
                                 css : {
-                                    top:100,
+                                    top:'70%',
                                     opacity:0
                                 },
                                 animateIn:{
                                     opacity:1,
-                                    top:200,
+                                    top:'40%'
                                 },
                                 animateOut:{
                                     opacity:0,
-                                    top:100,
+                                    top:'70%'
                                 },
                                 center : true,
                             }
@@ -261,8 +261,8 @@
                 .addComponent('msg',{
                     text:'腾讯新闻稳居第一',
                     css:{
-                        opacity:0,bottom:120,
-                        textAlign:'center',width:'100%',color:'#ff7676'
+                        opacity:0,top:'20%',
+                        textAlign:'center',width:'100%',color:'#ff7676',fontSize:'20px',
                     },
                     animateIn:{ opacity:1},
                     animateOut:{ opacity:0}
@@ -273,8 +273,8 @@
                 .addComponent('bar_v',
                             {
                                 type : 'bar_v',
-                                width : 16.5625,
-                                height : 12.5,
+                                width : 400,
+                                height : 400,
                                 data:[
                                     ['微信' , .1916  ,'#ff7676'],
                                     ['QQ' , .0732],
@@ -283,16 +283,16 @@
                                     ['腾讯视频' , .0026],
                                 ],
                                 css : {
-                                    top:220,
+                                    top:'40%',
                                     opacity:0
                                 },
                                 animateIn:{
                                     opacity:1,
-                                    top:200,
+                                    top:'40%',
                                 },
                                 animateOut:{
                                     opacity:0,
-                                    top:220,
+                                    top:'60%',
                                 },
                                 center : true
                             }
@@ -300,8 +300,8 @@
                 .addComponent('msg',{
                     text:'腾讯系霸占了移动互联网用户3成时间',
                     css:{
-                        opacity:0,top:180,
-                        textAlign:'center',width:'100%',color:'#ff7676'
+                        opacity:0,top:'20%',
+                        textAlign:'center',width:'100%',color:'#ff7676',fontSize:'20px',
                     },
                     animateIn:{ opacity:1},
                     animateOut:{ opacity:0}
@@ -312,8 +312,8 @@
 
                 .addComponent('radar',{
                     type : 'radar',
-                    width : 12.5,
-                    height : 12.5,
+                    width : 400,
+                    height : 400,
                     data:[
                         ['饿了么' , .9  ,'#ff7676'],
                         ['百度' , .7 ],
@@ -322,16 +322,16 @@
                         ['宅米' , .1 ]
                     ],
                     css : {
-                        top:100,
+                        top:'70%',
                         opacity:0
                     },
                     animateIn:{
                         opacity:1,
-                        top:200,
+                        top:'40%',
                     },
                     animateOut:{
                         opacity:0,
-                        top:100,
+                        top:'70%',
                     },
                     center : true,
                 })
@@ -339,18 +339,18 @@
                 .addComponent('caption',{text:'移动上网方式频度分布'})//ring
                 .addComponent('ring-all',{
                     type : 'ring',center : true,
-                    width : 9.375,
-                    height : 9.375,
+                    width : 200,
+                    height : 200,
                     data:[['WiFi' , .727  ,'#ff7676']],
-                    css : { top:120,opacity:0 ,fontSize:'30px'},
+                    css : { top:'40%',opacity:0 ,fontSize:'30px'},
                     animateIn: { opacity:1},
                     animateOut:{ opacity:0},
                 })
                .addComponent('msg',{
                     text:'WiFi接入超7成，4G迅速普及',
                     css:{
-                        opacity:0,top:300,
-                        textAlign:'center',width:'100%',color:'#ff7676'
+                        opacity:0,top:'20%',
+                        textAlign:'center',width:'100%',color:'#ff7676',fontSize:'20px',
                     },
                     animateIn:{ opacity:1},
                     animateOut:{ opacity:0},
@@ -358,8 +358,8 @@
                 })
                 .addComponent('ring-1',{
                     type : 'ring',center : true,
-                    width : 4.375,
-                    height : 4.375,
+                    width : 100,
+                    height : 100,
                     data:[['4G' , .168  ,'darkorange']],
                     css : { left:30,bottom:110,opacity:0,fontSize:'12px' },
                     animateIn: { opacity:1},
@@ -367,8 +367,8 @@
                 })
                 .addComponent('ring-2',{
                     type : 'ring',
-                    width : 4.375,
-                    height : 4.375,
+                    width : 100,
+                    height : 100,
                     data:[['3G' , .055  ,'darkorange']],
                     css : { left:30,bottom:110,opacity:0,fontSize:'12px' },
                     animateIn: { opacity:1},
@@ -376,8 +376,8 @@
                 })
                 .addComponent('ring-3',{
                     type : 'ring',
-                    width : 4.375,
-                    height : 4.375,
+                    width : 100,
+                    height : 100,
                     data:[['2G' , .051  ,'darkorange']],
                     css : { right:30,bottom:110,opacity:0,fontSize:'12px' },
                     animateIn: { opacity:1},
@@ -388,8 +388,8 @@
                 .addComponent('caption',{text:'移动用户每日打开应用数'})//point
                 .addComponent('point',{
                 type : 'point',
-                width : 9.375,
-                height : 9.375,
+                width : 300,
+                height : 300,
                 data:[
                     ['11到20款' , .37  ,'#ff7676'],
                     ['1到5款' , .27  ,'#99c1ff', '50%' ,'-120%'],
@@ -404,8 +404,8 @@
             .addPage('tail')
                 .addComponent('logo',{
                     center:true,
-                    width:11.218,
-                    height:4.03125,
+                    width:150,
+                    height:150,
                     bg:'imgs/tail_logo.png',
                     css:{top:240,opacity:0},
                     animateIn:{opacity:1,top:210},
@@ -413,8 +413,8 @@
                 })
                 .addComponent('slogan',{
                     center:true,
-                    width:9.8125,
-                    height:1.4375,
+                    width:314,
+                    height:46,
                     bg:'imgs/tail_slogan.png',
                     css:{top:280,opacity:0},
                     animateIn:{opacity:1,left:'50%'},
@@ -422,8 +422,8 @@
                     delay:500
                 })
                 .addComponent('share',{
-                    width:4,
-                    height:3.75,
+                    width:120,
+                    height:120,
                     bg:'imgs/tail_share.png',
                     css:{opacity:0,top:110,right:110},
                     animateIn:{opacity:1,top:10,right:10},
@@ -431,14 +431,16 @@
                     delay:1000
                 })
                 .addComponent('back',{
-                    width:1.625,
-                    height:1.5625,
+                    width:50,
+                    height:50,
                     bg:'imgs/tail_back.png',
                     center:true,
                     onclick : function(){
                          $.fn.fullpage.moveTo( 1 )
                     }
-                }).loader( [ 'imgs/tail_back.png','imgs/tail_share.png','imgs/tail_slogan.png' ] );
+                }).loader( ['imgs/description_bg.gif','imgs/face_img_left.png','imgs/face_img_right.png' ,
+                'imgs/face_slogan.png','imgs/footer.png','imgs/page_caption_bg.png' ,
+                'imgs/tail_back.png','imgs/tail_share.png','imgs/tail_slogan.png' ,] );
 //             $.getJSON('data.json',function (json) {
 //             })
         });

@@ -19,7 +19,7 @@ var H5ComponentBar =function ( name, cfg ) {
 
         rate.html( '<div class="bg" '+bgStyle+'></div>' );
 
-        rate.css('width',width);
+        rate.css('width',item[1]*300 + '%');
 
         name.text( item[0]);
 

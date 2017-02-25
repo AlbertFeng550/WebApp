@@ -23,7 +23,6 @@ var H5ComponentPolyline = function (name, cfg) {
 
         window.ctx = ctx;
         for (var i = 0; i < step + 1; i++) {
-
             var y = h / step * i;
             ctx.moveTo(0, y);
             ctx.lineTo(w, y);
@@ -104,7 +103,7 @@ var H5ComponentPolyline = function (name, cfg) {
         ctx.fill();
 
 
-        //写数据
+       //写数据
         for (i in cfg.data) {
             var item = cfg.data[i];
 
@@ -112,6 +111,7 @@ var H5ComponentPolyline = function (name, cfg) {
             y = h - (item[1]*h*per);
             ctx.moveTo(x, y);
             ctx.fillStyle = item[2] ? item[2] : '#595959';
+            ctx.font = "24px Arial";
             ctx.fillText(((item[1] * 100) >> 0) + '%', x - 10, y - 10);
         }
 

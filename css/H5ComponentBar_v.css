@@ -19,6 +19,7 @@
     line-height: 20px;
     bottom: -20px;
     text-align: center;
+    font-size: 14px;
 }
 
 .h5_component_bar_v .rate{
@@ -48,7 +49,8 @@
     height: 20px;
     line-height: 20px;
     text-align: center;
-    color: #99c0ff;
+    font-size: 14px;
+    color: #333;
     -webkit-opacity:0;
 }
 

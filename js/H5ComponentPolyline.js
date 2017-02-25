@@ -3,13 +3,9 @@
 var H5ComponentPolyline = function (name, cfg) {
     var component = new H5ComponentBase(name, cfg);
 
-
-
         //绘制网格线
         var w = cfg.width;
         var h = cfg.height;
-
-
 
         //加入一个画布（网格线背景）
         var cns = document.createElement('canvas');
@@ -19,9 +15,6 @@ var H5ComponentPolyline = function (name, cfg) {
 
         component.append(cns);
 
-        w = component.width();
-        h = component.height();
-
         //水平网格线 100份->10份
         var step = 10;
         ctx.beginPath();
@@ -30,9 +23,8 @@ var H5ComponentPolyline = function (name, cfg) {
 
         window.ctx = ctx;
         for (var i = 0; i < step + 1; i++) {
+
             var y = h / step * i;
-
-
             ctx.moveTo(0, y);
             ctx.lineTo(w, y);
         }

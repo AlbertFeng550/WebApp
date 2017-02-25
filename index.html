@@ -11,9 +11,6 @@
     <script type="text/javascript" src="js/lib/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/lib/jquery.fullPage.js"></script>
 
-    <!--加载flexible做自动屏幕自适应-->
-    <script src="js/lib/flexible_css.debug.js"></script>
-    <script src="js/lib/flexible.debug.js"></script>
 
     <!--加载 H5组件相关资源-->
     <script type="text/javascript">
@@ -57,15 +54,15 @@
 
         .h5_component_name_caption{
             background-image: url(imgs/page_caption_bg.png);
-            width: 8.59375rem;
-            height: 3.28125rem;
+            width: 275px;
+            height: 105px;
             text-align: center;
-            line-height: 3.28125rem;
+            line-height: 105px;
             font-size: 20px;
             color: #fff;
         }
         .h5_component_name_back{
-            top: 0.9375rem;
+            top: 30px;
             -webkit-animation:back 2s infinite 2s;
         }
 
@@ -108,13 +105,13 @@
                     css:{
                         opacity:0,
                         left:0,bottom:-20,
-                        width:'100%',height:'0.625rem',zIndex:999
+                        width:'100%',height:'20px',zIndex:999
                     },
                     animateIn:{
                         opacity:1,bottom:'-1px'
                     },
                     animateOut:{
-                        opacity:0,bottom:'-0.625rem'
+                        opacity:0,bottom:'-20px'
                     },
                     delay:500
                 });
@@ -124,17 +121,17 @@
             .addPage('face')
                 .addComponent('slogan',{
                     center:true,
-                    width:'9.375rem',
-                    height:'3.578rem',
+                    width:600,
+                    height:228,
                     bg:'imgs/face_slogan.png',
-                    css:{opacity:0,top:'4rem'},
+                    css:{opacity:0,top:120},
                     animateIn:{left:'50%',opacity:1},
                     animateOut:{left:'0%',opacity:0},
                     delay:500
                 })
                 .addComponent('face_img_left',{
-                    width:'5.78rem',
-                    height:'7.703rem',
+                    width:300,
+                    height:300,
                     bg:'imgs/face_img_left.png',
                     css:{opacity:0,left:-50,bottom:-50},
                     animateIn:{opacity:1,left:0,bottom:0},
@@ -142,8 +139,8 @@
                     delay:1000
                 })
                 .addComponent('face_img_right',{
-                    width:'4.3125rem',
-                    height:'7rem',
+                    width:300,
+                    height:300,
                     bg:'imgs/face_img_right.png',
                     css:{opacity:0,right:-50,bottom:-50},
                     animateIn:{opacity:1,right:0,bottom:0},
@@ -153,47 +150,34 @@
             .addPage()
                 .addComponent('caption',{text:'具体介绍'})
                 .addComponent('text',{
-                    width:'7.9rem',
-                    height:'0.465rem',
+                    width:400,
+                    height:120,
                     center:true,
-                    text:'移动端观看体验最佳',
+                    text:'移动端观看体验更佳',
                     css:{
                         opacity:0,textAlign:'center',color:'red',fontSize:'26px'
                     },
-                    animateIn:{opacity:1,top:'3.75rem'},
-                    animateOut:{opacity:0,top:'7.5rem'},
+                    animateIn:{opacity:1,top:120},
+                    animateOut:{opacity:0,top:240},
                 })
                 .addComponent('description',{
                     center:true,
-                    width:'7.5rem',
-                    height:'4.6rem',
+                    width:480,
+                    height:240,
                     bg:'imgs/description_bg.gif',
                     css:{
                         opacity:0,
                         padding:'15px 10px 10px 10px',
                         color:'#fff',
-                        fontSize:'15px',
+                        fontSize:'16px',
                         lineHeight:'18px',
                         textAlign:'justify',
-                        top:'7.5rem'
+                        top:'70%'
                     },
                     text:'数据来源于2016上半年中国移动互联网行业发展分析报告，主要用于展示散点图，饼图，雷达图，环图，柱状图，折线图的绘制结果',
-                    animateIn:{opacity:1,top:'5.9375rem'},
-                    animateOut:{opacity:0,top:'7.5rem'},
+                    animateIn:{opacity:1,top:'40%'},
+                    animateOut:{opacity:0,top:'70%'},
                     delay:1000
-                })
-                .addComponent('people',{
-                    center:true,
-                    width:'8rem',
-                    height:'4.77rem',
-                    bg:'imgs/p1_people.png',
-                    css:{
-                        opacity:0,
-                        bottom:0
-                    },
-                    animateIn:{opacity:1,bottom:'1.25rem'},
-                    animateOut:{opacity:0,bottom:0},
-                    delay:500
                 })
 
             .addPage()
@@ -201,8 +185,8 @@
                 .addComponent('polyline',{
                     type:'polyline',
                     data:[['苹果',.275,'#ff7676'],['华为',.129],['OPPO',.107,],['三星',.099],['小米',.098],['vivio',.087]],
-                    width:'8.5625rem',
-                    height:'4.375rem',
+                    width:530,
+                    height:400,
                     center:true,
                     css:{opacity:0,top:200},
                     animateIn:{opacity:1,top:250},
@@ -212,7 +196,7 @@
                     text:'苹果手机占到27.5%',
                     css:{
                         opacity:0,top:160,
-                        textAlign:'center',width:'100%',color:'#ff7676'
+                        textAlign:'center',width:'100%',color:'#ff7676',fontSize:'16px',
                     },
                     animateIn:{ opacity:1},
                     animateOut:{ opacity:0}

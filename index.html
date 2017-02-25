@@ -15,7 +15,6 @@
     <script src="js/lib/flexible_css.debug.js"></script>
     <script src="js/lib/flexible.debug.js"></script>
 
-
     <!--加载 H5组件相关资源-->
     <script type="text/javascript">
             var res = ['Base','Bar_v','Point','Polyline','Radar','Pie','Ring'];
@@ -58,15 +57,15 @@
 
         .h5_component_name_caption{
             background-image: url(imgs/page_caption_bg.png);
-            width: 4.296875rem;
-            height: 1.640625rem;
+            width: 8.59375rem;
+            height: 3.28125rem;
             text-align: center;
-            line-height: 1.640625rem;
+            line-height: 3.28125rem;
             font-size: 20px;
             color: #fff;
         }
         .h5_component_name_back{
-            top: 30px;
+            top: 0.9375rem;
             -webkit-animation:back 2s infinite 2s;
         }
 
@@ -109,13 +108,13 @@
                     css:{
                         opacity:0,
                         left:0,bottom:-20,
-                        width:'100%',height:'20px',zIndex:999
+                        width:'100%',height:'0.625rem',zIndex:999
                     },
                     animateIn:{
                         opacity:1,bottom:'-1px'
                     },
                     animateOut:{
-                        opacity:0,bottom:'-20px'
+                        opacity:0,bottom:'-0.625rem'
                     },
                     delay:500
                 });
@@ -125,17 +124,17 @@
             .addPage('face')
                 .addComponent('slogan',{
                     center:true,
-                    width:365,
-                    height:99,
+                    width:'9.375rem',
+                    height:'3.578rem',
                     bg:'imgs/face_slogan.png',
-                    css:{opacity:0,top:180},
+                    css:{opacity:0,top:'4rem'},
                     animateIn:{left:'50%',opacity:1},
                     animateOut:{left:'0%',opacity:0},
                     delay:500
                 })
                 .addComponent('face_img_left',{
-                    width:370,
-                    height:493,
+                    width:'5.78rem',
+                    height:'7.703rem',
                     bg:'imgs/face_img_left.png',
                     css:{opacity:0,left:-50,bottom:-50},
                     animateIn:{opacity:1,left:0,bottom:0},
@@ -143,31 +142,31 @@
                     delay:1000
                 })
                 .addComponent('face_img_right',{
-                    width:276,
-                    height:449,
+                    width:'4.3125rem',
+                    height:'7rem',
                     bg:'imgs/face_img_right.png',
                     css:{opacity:0,right:-50,bottom:-50},
                     animateIn:{opacity:1,right:0,bottom:0},
                     animateOut:{opacity:0,right:-50,bottom:-50},
-                    delay:1000
+                    delay:1600
                 })
             .addPage()
                 .addComponent('caption',{text:'具体介绍'})
                 .addComponent('text',{
-                    width:500,
-                    height:30,
+                    width:'7.9rem',
+                    height:'0.465rem',
                     center:true,
                     text:'移动端观看体验最佳',
                     css:{
                         opacity:0,textAlign:'center',color:'red',fontSize:'26px'
                     },
-                    animateIn:{opacity:1,top:120},
-                    animateOut:{opacity:0,top:240},
+                    animateIn:{opacity:1,top:'3.75rem'},
+                    animateOut:{opacity:0,top:'7.5rem'},
                 })
                 .addComponent('description',{
                     center:true,
-                    width:481,
-                    height:295,
+                    width:'7.5rem',
+                    height:'4.6rem',
                     bg:'imgs/description_bg.gif',
                     css:{
                         opacity:0,
@@ -176,23 +175,23 @@
                         fontSize:'15px',
                         lineHeight:'18px',
                         textAlign:'justify',
-                        top:240
+                        top:'7.5rem'
                     },
                     text:'数据来源于2016上半年中国移动互联网行业发展分析报告，主要用于展示散点图，饼图，雷达图，环图，柱状图，折线图的绘制结果',
-                    animateIn:{opacity:1,top:190},
-                    animateOut:{opacity:0,top:240},
+                    animateIn:{opacity:1,top:'5.9375rem'},
+                    animateOut:{opacity:0,top:'7.5rem'},
                     delay:1000
                 })
                 .addComponent('people',{
                     center:true,
-                    width:515,
-                    height:305,
+                    width:'8rem',
+                    height:'4.77rem',
                     bg:'imgs/p1_people.png',
                     css:{
                         opacity:0,
                         bottom:0
                     },
-                    animateIn:{opacity:1,bottom:40},
+                    animateIn:{opacity:1,bottom:'1.25rem'},
                     animateOut:{opacity:0,bottom:0},
                     delay:500
                 })
@@ -202,8 +201,8 @@
                 .addComponent('polyline',{
                     type:'polyline',
                     data:[['苹果',.275,'#ff7676'],['华为',.129],['OPPO',.107,],['三星',.099],['小米',.098],['vivio',.087]],
-                    width:530,
-                    height:300,
+                    width:'8.5625rem',
+                    height:'4.375rem',
                     center:true,
                     css:{opacity:0,top:200},
                     animateIn:{opacity:1,top:250},
@@ -231,8 +230,8 @@
                         ['其他' , .12],
                     ],
                     css:{top:200},
-                    width:300,
-                    height:300,
+                    width:'9.375rem',
+                    height:'9.375rem',
                     center:true
                 })
                 .addComponent('msg',{
@@ -250,8 +249,8 @@
                             {
                                 type : 'bar',
 
-                                width : 530,
-                                height : 600,
+                                width : '16.5625rem',
+                                height : '18.75rem',
                                 data:[
                                     ['腾讯新闻' , .1167  ,'#ff7676'],
                                     ['今日头条' , .087],
@@ -290,8 +289,8 @@
                 .addComponent('bar_v',
                             {
                                 type : 'bar_v',
-                                width : 530,
-                                height : 400,
+                                width : 16.5625,
+                                height : 12.5,
                                 data:[
                                     ['微信' , .1916  ,'#ff7676'],
                                     ['QQ' , .0732],
@@ -329,8 +328,8 @@
 
                 .addComponent('radar',{
                     type : 'radar',
-                    width : 400,
-                    height : 400,
+                    width : 12.5,
+                    height : 12.5,
                     data:[
                         ['饿了么' , .9  ,'#ff7676'],
                         ['百度' , .7 ],
@@ -356,7 +355,8 @@
                 .addComponent('caption',{text:'移动上网方式频度分布'})//ring
                 .addComponent('ring-all',{
                     type : 'ring',center : true,
-                    width : 300,height : 300,
+                    width : 9.375,
+                    height : 9.375,
                     data:[['WiFi' , .727  ,'#ff7676']],
                     css : { top:120,opacity:0 ,fontSize:'30px'},
                     animateIn: { opacity:1},
@@ -374,7 +374,8 @@
                 })
                 .addComponent('ring-1',{
                     type : 'ring',center : true,
-                    width : 140,height : 140,
+                    width : 4.375,
+                    height : 4.375,
                     data:[['4G' , .168  ,'darkorange']],
                     css : { left:30,bottom:110,opacity:0,fontSize:'12px' },
                     animateIn: { opacity:1},
@@ -382,7 +383,8 @@
                 })
                 .addComponent('ring-2',{
                     type : 'ring',
-                    width : 140,height : 140,
+                    width : 4.375,
+                    height : 4.375,
                     data:[['3G' , .055  ,'darkorange']],
                     css : { left:30,bottom:110,opacity:0,fontSize:'12px' },
                     animateIn: { opacity:1},
@@ -390,7 +392,8 @@
                 })
                 .addComponent('ring-3',{
                     type : 'ring',
-                    width : 140,height : 140,
+                    width : 4.375,
+                    height : 4.375,
                     data:[['2G' , .051  ,'darkorange']],
                     css : { right:30,bottom:110,opacity:0,fontSize:'12px' },
                     animateIn: { opacity:1},
@@ -401,8 +404,8 @@
                 .addComponent('caption',{text:'移动用户每日打开应用数'})//point
                 .addComponent('point',{
                 type : 'point',
-                width : 300,
-                height : 300,
+                width : 9.375,
+                height : 9.375,
                 data:[
                     ['11到20款' , .37  ,'#ff7676'],
                     ['1到5款' , .27  ,'#99c1ff', '50%' ,'-120%'],
@@ -417,8 +420,8 @@
             .addPage('tail')
                 .addComponent('logo',{
                     center:true,
-                    width:359,
-                    height:129,
+                    width:11.218,
+                    height:4.03125,
                     bg:'imgs/tail_logo.png',
                     css:{top:240,opacity:0},
                     animateIn:{opacity:1,top:210},
@@ -426,8 +429,8 @@
                 })
                 .addComponent('slogan',{
                     center:true,
-                    width:314,
-                    height:46,
+                    width:9.8125,
+                    height:1.4375,
                     bg:'imgs/tail_slogan.png',
                     css:{top:280,opacity:0},
                     animateIn:{opacity:1,left:'50%'},
@@ -435,8 +438,8 @@
                     delay:500
                 })
                 .addComponent('share',{
-                    width:128,
-                    height:120,
+                    width:4,
+                    height:3.75,
                     bg:'imgs/tail_share.png',
                     css:{opacity:0,top:110,right:110},
                     animateIn:{opacity:1,top:10,right:10},
@@ -444,8 +447,8 @@
                     delay:1000
                 })
                 .addComponent('back',{
-                    width:52,
-                    height:50,
+                    width:1.625,
+                    height:1.5625,
                     bg:'imgs/tail_back.png',
                     center:true,
                     onclick : function(){

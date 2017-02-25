@@ -41,9 +41,9 @@ body{
 }
 
 .double-bounce2{
-    -webkit-animation:bounce 2s infinite ease-in-out 0s;
-    -o-animation:bounce 2s infinite ease-in-out 0s;
-    animation:bounce 2s infinite ease-in-out 0s;
+    -webkit-animation:bounce2 2s infinite ease-in-out 0s;
+    -o-animation:bounce2 2s infinite ease-in-out 0s;
+    animation:bounce2 2s infinite ease-in-out 0s;
 }
 
 

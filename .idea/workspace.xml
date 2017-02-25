@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44d12b09-2463-412a-8c3c-9dfc6c0098c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/H5ComponentBar.css" afterPath="$PROJECT_DIR$/css/H5ComponentBar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/H5ComponentBar_v.css" afterPath="$PROJECT_DIR$/css/H5ComponentBar_v.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/H5ComponentPolyline.css" afterPath="$PROJECT_DIR$/css/H5ComponentPolyline.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/H5ComponentRing.css" afterPath="$PROJECT_DIR$/css/H5ComponentRing.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/H5ComponentBar.js" afterPath="$PROJECT_DIR$/js/H5ComponentBar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/H5ComponentPolyline.js" afterPath="$PROJECT_DIR$/js/H5ComponentPolyline.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/H5ComponentPie.js" afterPath="$PROJECT_DIR$/js/H5ComponentPie.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,37 +24,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="416" column="29" lean-forward="false" selection-start-line="416" selection-start-column="29" selection-end-line="416" selection-end-column="29" />
+            <state relative-caret-position="304">
+              <caret line="109" column="31" lean-forward="true" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tail_slogan.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imgs/tail_slogan.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="H5ComponentBar_v.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/H5ComponentBar_v.css">
+      <file leaf-file-name="H5ComponentPie.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/H5ComponentPie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+            <state relative-caret-position="361">
+              <caret line="85" column="40" lean-forward="false" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="description_bg.gif" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imgs/description_bg.gif">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="H5ComponentRing.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/H5ComponentRing.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -94,15 +84,15 @@
         <option value="$PROJECT_DIR$/js/H5_loading.js" />
         <option value="$PROJECT_DIR$/css/H5ComponentPie.css" />
         <option value="$PROJECT_DIR$/js/H5.js" />
-        <option value="$PROJECT_DIR$/js/H5ComponentPie.js" />
         <option value="$PROJECT_DIR$/js/H5ComponentBase.js" />
         <option value="$PROJECT_DIR$/js/H5ComponentPolyline.js" />
         <option value="$PROJECT_DIR$/css/H5ComponentPolyline.css" />
         <option value="$PROJECT_DIR$/js/H5ComponentBar.js" />
         <option value="$PROJECT_DIR$/css/H5ComponentRing.css" />
         <option value="$PROJECT_DIR$/css/H5ComponentBar.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/H5ComponentBar_v.css" />
+        <option value="$PROJECT_DIR$/js/H5ComponentPie.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -325,12 +315,12 @@
       <workItem from="1487747159501" duration="21760000" />
       <workItem from="1487812834213" duration="35150000" />
       <workItem from="1487901694703" duration="29279000" />
-      <workItem from="1487992113667" duration="22190000" />
+      <workItem from="1487992113667" duration="23539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108379000" />
+    <option name="totallyTimeSpent" value="109728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -544,14 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/H5ComponentPie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/H5.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -633,14 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/H5ComponentRing.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/H5ComponentBar_v.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -712,18 +686,34 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="416" column="29" lean-forward="false" selection-start-line="416" selection-start-column="29" selection-end-line="416" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/H5ComponentBar_v.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/H5ComponentPie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="85" column="40" lean-forward="false" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/H5ComponentRing.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="109" column="31" lean-forward="true" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
           <folding />
         </state>
       </provider>

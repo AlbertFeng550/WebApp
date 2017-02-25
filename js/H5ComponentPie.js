@@ -81,9 +81,9 @@ var H5ComponentPie = function (name, cfg) {
 
         if (y > h/2)
         {
-            text.css('top',y/2+10);
+            text.css('top',y/2+20);
         }else{
-            text.css('bottom',(h-y)/2+10);
+            text.css('bottom',(h-y)/2+20);
         }
 
         if(cfg.data[i][2]){

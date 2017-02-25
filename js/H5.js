@@ -5,8 +5,6 @@ var H5 =function() {
     this.page =[];
     $('body').append(this.el);
 
-
-
     /*新增一个页
     * @param name 组件的名称，加入到ClassName中
     * @param text 页内的文本
@@ -28,6 +26,7 @@ var H5 =function() {
         }
         return this;
     }
+
     /*新增一个组件*/
     this.addComponent=function (name , cfg) {
         var cfg=cfg || {};

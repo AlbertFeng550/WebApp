@@ -17,10 +17,6 @@ var H5ComponentRadar = function (name, cfg) {
     var r =w/2;
     var step = cfg.data.length;
 
-    //计算多边形的顶点坐标
-    //rad = (2*Math.PI/step) * i;
-    //x = a + Math.sin(rad) * r;
-    //y = b + Math.cos(rad) * r;
 
     //绘制网格背景(分面绘制)
     var isBlue = false;

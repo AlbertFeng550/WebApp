@@ -29,7 +29,7 @@ var H5ComponentPoint = function (name, cfg) {
 
         }
 
-        //  任务二：设置zIndex、重设位置
+        //  设置zIndex、重设位置
         point.css('zIndex',100-idx);
         point.css('left',0).css('top',0);
 
@@ -38,13 +38,13 @@ var H5ComponentPoint = function (name, cfg) {
 
     });
 
-    //  任务三：onLoad之后取出暂存的left、top 并且附加到 CSS 中
+    // onLoad之后取出暂存的left、top 并且附加到 CSS 中
     component.on('afterLoad',function(){
         component.find('.point').each(function(idx,item){
             $(item).css('left',$(item).data('left')).css('top',$(item).data('top'));
         })
     });
-    // 任务 四：onLeave之后，还原初始的位置
+    // onLeave之后，还原初始的位置
     component.on('onLeave',function(){
         component.find('.point').each(function(idx,item){
             $(item).css('left',0).css('top',0);

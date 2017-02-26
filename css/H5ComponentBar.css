@@ -37,7 +37,7 @@
     color: #333;
     margin-left: 5px;
     float: left;
-    -webkit-opacity:0;
+    opacity:0;;
     font-size: 16px;
 }
 
@@ -54,10 +54,10 @@
 
 .h5_component_bar_load .per{
     -webkit-transition:all 1s 1.5s;
-    -webkit-opacity:1;
+    opacity:1;
 }
 .h5_component_bar_leave .per{
-    -webkit-opacity:0;
+    opacity:0;
 }
 
 

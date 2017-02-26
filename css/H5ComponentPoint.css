@@ -55,7 +55,7 @@
     background-color: inherit;
     -webkit-animation:breathe 3s infinite ease-in-out .5s;;
     -o-animation:breathe 3s infinite ease-in-out .5s;;
-    animation:breathe 3s infinite ease-in-out .5s;;
+    animation:breathe 3s infinite ease-in-out .5s;
     z-index: -1;
 }
 

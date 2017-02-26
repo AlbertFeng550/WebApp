@@ -4,24 +4,6 @@
     <list default="true" id="44d12b09-2463-412a-8c3c-9dfc6c0098c9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/H5ComponentBar.css" afterPath="$PROJECT_DIR$/css/H5ComponentBar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/H5ComponentBar_v.css" afterPath="$PROJECT_DIR$/css/H5ComponentBar_v.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/H5ComponentPoint.css" afterPath="$PROJECT_DIR$/css/H5ComponentPoint.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/H5ComponentRing.css" afterPath="$PROJECT_DIR$/css/H5ComponentRing.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/H5ComponentBar_v.js" afterPath="$PROJECT_DIR$/js/H5ComponentBar_v.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/H5ComponentPoint.js" afterPath="$PROJECT_DIR$/js/H5ComponentPoint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/H5ComponentRadar.js" afterPath="$PROJECT_DIR$/js/H5ComponentRadar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/H5ComponentRing.js" afterPath="$PROJECT_DIR$/js/H5ComponentRing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-H5.html" afterPath="$PROJECT_DIR$/test/test-H5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-H5ComponentBar.html" afterPath="$PROJECT_DIR$/test/test-H5ComponentBar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-H5ComponentBar_v.html" afterPath="$PROJECT_DIR$/test/test-H5ComponentBar_v.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-H5ComponentBase.html" afterPath="$PROJECT_DIR$/test/test-H5ComponentBase.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-H5ComponentPie.html" afterPath="$PROJECT_DIR$/test/test-H5ComponentPie.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-H5ComponentPoint.html" afterPath="$PROJECT_DIR$/test/test-H5ComponentPoint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-H5ComponentPolyline.html" afterPath="$PROJECT_DIR$/test/test-H5ComponentPolyline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-H5ComponentRadar.html" afterPath="$PROJECT_DIR$/test/test-H5ComponentRadar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-H5ComponentRing.html" afterPath="$PROJECT_DIR$/test/test-H5ComponentRing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-valid.html" afterPath="$PROJECT_DIR$/test/test-valid.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,12 +24,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1330">
               <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="133">
+                <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -94,7 +89,6 @@
         <option value="$PROJECT_DIR$/js/H5ComponentPie.js" />
         <option value="$PROJECT_DIR$/css/H5_loading.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/H5ComponentBar.css" />
         <option value="$PROJECT_DIR$/css/H5ComponentBar_v.css" />
         <option value="$PROJECT_DIR$/css/H5ComponentPoint.css" />
@@ -113,6 +107,7 @@
         <option value="$PROJECT_DIR$/test/test-H5ComponentPolyline.html" />
         <option value="$PROJECT_DIR$/test/test-H5ComponentRadar.html" />
         <option value="$PROJECT_DIR$/test/test-H5ComponentRing.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -318,12 +313,12 @@
       <workItem from="1487812834213" duration="35150000" />
       <workItem from="1487901694703" duration="29279000" />
       <workItem from="1487992113667" duration="30178000" />
-      <workItem from="1488120383296" duration="2720000" />
+      <workItem from="1488120383296" duration="3251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119087000" />
+    <option name="totallyTimeSpent" value="119618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -393,17 +388,6 @@
     <entry file="file://$PROJECT_DIR$/js/lib/flexible_css.debug.js" />
     <entry file="file://$PROJECT_DIR$/js/lib/flexible.debug.js" />
     <entry file="file://$PROJECT_DIR$/imgs/p1_people.png" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="86">
-            <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/H5.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -708,6 +692,17 @@
         <state relative-caret-position="-1330">
           <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

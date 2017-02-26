@@ -1,6 +1,8 @@
 #项目概述
-一个[WebApp](https://albertfeng550.github.io/WebApp/index.html
-)，组件式开发，利用HTML+CSS实现柱状图，垂直柱状图，散点图，Canvas实现雷达图，饼图，环图和折线图，CSS3动画来实现loading，返回首页等其他需要动画效果的地方。
+一个[WebApp](https://albertfeng550.github.io/WebApp/index.html)
+</br>利用HTML+CSS实现柱状图，垂直柱状图和散点图
+</br>Canvas实现雷达图，饼图，环图和折线图
+<br>CSS3动画来实现loading，返回首页等其他需要动画效果的地方。
 
 #技术选型
 1.   页面的DOM操作：jQuery
@@ -32,7 +34,7 @@
 8.  H5ComponentPoint.js</br>
     散点图组件</br>
     
-    除图文组件外，其他组件接受的配置数据均为
+    提示：除图文组件外，其他组件接受的配置数据均为
     ['名字',比例（小数）,'颜色(非必须)']，
     例如['苹果',.275,'#ff7676']，
     不过需要注意的是，饼图组件的数据比例之和需要为100%，
